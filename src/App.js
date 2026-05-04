@@ -25,7 +25,7 @@ function App() {
     }
   ]);
 
-  // ✅ ADD TODO FUNCTION
+//add todo function
   const addTodo = (title, desc) => {
     console.log("Adding todo:", title, desc);
 
@@ -42,7 +42,7 @@ function App() {
     setTodos([...todos, myTodo]);
   };
 
-  // ✅ DELETE FUNCTION
+  //  DELETE FUNCTION
   const onDelete = (todo) => {
     console.log("Deleting todo:", todo);
     setTodos(todos.filter((e) => e.sno !== todo.sno));
