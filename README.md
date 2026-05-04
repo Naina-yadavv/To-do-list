@@ -33,14 +33,10 @@ This project was built for **practice and learning**, with the help of a tutoria
 
 ---
 
-## Preview
-
-
----
-
 ##  Deployment
 
 This app is deployed using Vercel.  
+https://to-do-list-49vd.vercel.app/
 
 ---
 
