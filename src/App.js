@@ -106,6 +106,7 @@ function App() {
       fetchUser();
       refreshSession();
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoggedIn]);
 
   return (

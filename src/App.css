@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #fdf2f8;
+  font-family: 'Poppins', sans-serif;
+}
+
+

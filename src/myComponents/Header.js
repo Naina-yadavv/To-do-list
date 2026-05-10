@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 export default function Header(props) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm " style={{backgroundColor: "#fbcfe8"}}>
       <div className="container-fluid">
 
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand fw-bold" style={{color: "#6b7280"}} href="/">
           {props.title}
         </a>
 
